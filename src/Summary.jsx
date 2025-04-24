@@ -33,7 +33,7 @@ const summuraire = [
 
 export function Summary(){
     return(
-        <div className=" lg:bg-white p-5 w-[95%] rounded-md shadow flex  flex-col mx-auto gap-5">
+        <div className=" lg:bg-white p-5 w-[95%] rounded-md shadow flex  flex-col mx-auto gap-5 text-black">
             <h1>Summary</h1>
            <div className="flex justify-between flex-nowrap gap-3 flex-wrap">
            {summuraire.map((element,index)=>(

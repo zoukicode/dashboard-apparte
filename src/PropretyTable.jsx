@@ -29,7 +29,7 @@ const [afficher,setaffiche] = useState(null)
   return (
     <>
     {/* --  Version mobile tableau -- */}
-    <div className="block sm:hidden space-y-4 w-[95%] mx-auto mb-20">
+    <div className="block sm:hidden space-y-4 w-[95%] mx-auto mb-20 text-black">
     <h2 className="text-lg font-semibold mb-4">Property</h2>
         {data.map((element,index)=>(
             <div onClick={()=>{setaffiche(afficher === index?null:index)}} key={index} className={`${afficher === index?'h-50' :'h-15'} transition-all duration-300 cursor-pointer overflow-hidden p-4 rounded-lg shadow bg-white`}>
